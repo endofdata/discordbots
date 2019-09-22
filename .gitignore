@@ -102,3 +102,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+/betabot-201909/discord_env
+/betabot-201909/betabot-201909.pyproj
+/betabot-201909/betabot-201909.pyproj.user
