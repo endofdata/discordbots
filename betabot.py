@@ -15,6 +15,7 @@ async def on_message(message):
     if message.content.startswith('$hello'):
         await message.channel.send('Hello!')
 
+print('Betabot is starting up.')
 key = 'BETABOT_TOKEN'
 
 if key in os.environ:
@@ -25,6 +26,6 @@ else:
 if token == None or token == '':
     print(f"Missing token environment variable '{key}'")
 else:
-    client.run()
+    client.run(token)
 
 
