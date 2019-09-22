@@ -1,1 +1,1 @@
-web: python betabot.py
+worker: python betabot.py
