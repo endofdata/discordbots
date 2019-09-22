@@ -108,3 +108,4 @@ venv.bak/
 /.vs/discordbots/v16/.suo
 /discordbots.sln
 /betabot-201909.pyproj
+/discord_env
