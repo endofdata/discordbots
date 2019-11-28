@@ -46,7 +46,9 @@ if token == None or token == '':
     print(f"Missing token environment variable '{key}'")
 else:
     shutdown_timer = threading.Timer(timeout_seconds, on_shutdown)
+    shutdown_timer.start()
     client.run(token)
+    shutdown_timer.cancel()
 
 print('Betabot is going to sleep.')
 
