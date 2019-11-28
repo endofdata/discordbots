@@ -40,7 +40,7 @@ if timeout == None or timeout == '':
     print(f"No timeout environment variable '{env_timeout}'. Using default timeout")
     timeout_seconds = 8 * 60 * 60
 else:
-    timeout_seconds = timeout * 60
+    timeout_seconds = float(timeout) * 60
 
 if token == None or token == '':
     print(f"Missing token environment variable '{key}'")
